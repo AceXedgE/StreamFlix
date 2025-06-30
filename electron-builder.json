@@ -1,0 +1,14 @@
+{
+    "appId": "com.AceXedgE.streamflix",
+    "files": [ "dist-electron", "dist-react" ],
+    "mac": {
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": ["msi", "portable"]
+    }
+}
